@@ -14,32 +14,39 @@ Before running the application, ensure that you have the following:
 
 ### Clone the repository
 ```bash
-git clone https://github.com/your-username/credit-card-api.git
+git clone https://github.com/your-username/credit-card-api.git```
+
 Configure the database connection
 Open the application.properties file located in src/main/resources.
 Update the database connection properties (spring.datasource.url, spring.datasource.username, spring.datasource.password) according to your database setup.
 Build the application
 If using Maven:
 
-bash
+```bash
 Copy code
 mvn clean install
+```
 If using Gradle:
 
 bash
 Copy code
+```
 ./gradlew clean build
+```
 Run the application
+
 If using Maven:
 
-bash
 Copy code
+```
 mvn spring-boot:run
+```
 If using Gradle:
 
-bash
 Copy code
+```
 ./gradlew bootRun
+```
 The application will start running on http://localhost:8080.
 
 API Endpoints
@@ -54,7 +61,7 @@ For detailed information on the request and response formats of each endpoint, p
 Testing
 To test the API endpoints, you can use tools like cURL or Postman. Here's an example of adding a credit card using cURL:
 
-bash
+```
 Copy code
 curl -X POST -H "Content-Type: application/json" -d '{
   "userId": 1,
@@ -62,6 +69,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "cardNumber": "1234567890123456"
 }' http://localhost:8080/credit-card
 Make sure to replace the userId, cardIssuanceBank, and cardNumber with appropriate values.
+```
 
 Contributing
 Contributions are welcome! If you find any issues or want to enhance the functionality of the Credit Card API, please feel free to submit a pull request.
