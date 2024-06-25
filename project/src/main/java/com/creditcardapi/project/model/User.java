@@ -1,4 +1,4 @@
-package com.shepherdmoney.interviewproject.model;
+package com.creditcardapi.project.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

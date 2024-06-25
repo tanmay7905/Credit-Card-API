@@ -1,10 +1,10 @@
-package com.shepherdmoney.interviewproject.controller;
+package com.creditcardapi.project.controller;
 
-import com.shepherdmoney.interviewproject.repository.UserRepository;
-import com.shepherdmoney.interviewproject.vo.request.CreateUserPayload;
+import com.creditcardapi.project.repository.UserRepository;
+import com.creditcardapi.project.vo.request.CreateUserPayload;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.shepherdmoney.interviewproject.model.User;
+import com.creditcardapi.project.model.User;
 
 @RestController
 public class UserController {

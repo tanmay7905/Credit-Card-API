@@ -1,4 +1,4 @@
-package com.shepherdmoney.interviewproject.vo.request;
+package com.creditcardapi.project.vo.request;
 
 import java.time.LocalDate;
 

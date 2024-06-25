@@ -1,10 +1,12 @@
-package com.shepherdmoney.interviewproject.controller;
+package com.creditcardapi.project.controller;
 
-import com.shepherdmoney.interviewproject.model.CreditCard;
-import com.shepherdmoney.interviewproject.repository.CreditCardRepository;
-import com.shepherdmoney.interviewproject.repository.UserRepository;
-import com.shepherdmoney.interviewproject.vo.request.AddCreditCardToUserPayload;
-import com.shepherdmoney.interviewproject.vo.request.UpdateBalancePayload;
+import com.creditcardapi.project.model.*;
+import com.creditcardapi.project.repository.CreditCardRepository;
+import com.creditcardapi.project.repository.UserRepository;
+import com.creditcardapi.project.vo.request.*;
+import com.creditcardapi.project.vo.response.*;
+
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,11 +15,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.shepherdmoney.interviewproject.model.User;
-import com.shepherdmoney.interviewproject.model.BalanceHistory;
-import com.shepherdmoney.interviewproject.repository.CreditCardRepository;
-import com.shepherdmoney.interviewproject.repository.UserRepository;
-import com.shepherdmoney.interviewproject.vo.response.CreditCardView;
+
 
 
 @RestController
