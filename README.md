@@ -12,13 +12,13 @@ Before running the application, ensure that you have the following:
 
 ## Getting Started
 
-### Clone the repository:
+### Clone the repository
 ```bash
 git clone https://github.com/your-username/credit-card-api.git
-Configure the database connection:
+Configure the database connection
 Open the application.properties file located in src/main/resources.
 Update the database connection properties (spring.datasource.url, spring.datasource.username, spring.datasource.password) according to your database setup.
-Build the application:
+Build the application
 If using Maven:
 
 bash
@@ -29,7 +29,7 @@ If using Gradle:
 bash
 Copy code
 ./gradlew clean build
-Run the application:
+Run the application
 If using Maven:
 
 bash
